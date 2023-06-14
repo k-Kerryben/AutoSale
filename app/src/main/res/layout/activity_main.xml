@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybg"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="280dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/create"
+        android:paddingStart="7dp"
+        android:text="@string/create_account"
+        android:textSize="40sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:textSize="18sp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext"
+        android:id="@+id/eName"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@+id/tName"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textStyle="italic"
+        android:autofillHints="" />
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/tName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+
+    <EditText
+        android:textSize="18sp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext"
+        android:id="@+id/eEmail"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@+id/tEmail"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic"
+        android:autofillHints="emailAddress" />
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="90dp"
+        android:layout_below="@+id/eName"
+        android:id="@+id/tEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:textSize="18sp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext"
+        android:id="@+id/ePass"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_below="@+id/tPass"
+        android:ems="10"
+        android:hint="@string/password1"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        android:autofillHints="" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="90dp"
+        android:layout_below="@+id/eEmail"
+        android:id="@+id/tPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password" />
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        android:id="@+id/erPass"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        android:autofillHints="password" />
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="90dp"
+        android:layout_below="@+id/ePass"
+        android:id="@+id/trPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confrim_password" />
+
+    <Button
+        android:id="@+id/bCreate"
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@drawable/create"
+        android:text="@string/create"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:cornerRadius="50dp"
+        app:iconTint="#000000"
+        app:strokeColor="#000000"
+        tools:ignore="RelativeOverlap" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@+id/erPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/already_have_an_account"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bLogin"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/create"
+            android:text="@string/sign_in"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:cornerRadius="50dp"
+            app:iconTint="#000000"
+            app:strokeColor="#000000" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/imageView2"
+        android:layout_width="90dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/racing" />
+
+</RelativeLayout>

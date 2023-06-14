@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369480871580",
+    "project_id": "autosale-389518",
+    "storage_bucket": "autosale-389518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369480871580:android:e21b91a07cdfab940f8759",
+        "android_client_info": {
+          "package_name": "com.example.garike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369480871580-ptlq2jv18t13flm9vdgnhhtq9tofg8dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzkuY74fOjmXMF__8gAf6paX7zuogdPMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369480871580-ptlq2jv18t13flm9vdgnhhtq9tofg8dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

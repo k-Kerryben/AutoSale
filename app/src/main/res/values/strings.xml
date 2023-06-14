@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GariKE</string>
+    <string name="confrim_password">Confrim Password</string>
+    <string name="create">Create</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign IN</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="password1">Password</string>
+    <string name="email">Email</string>
+    <string name="email_address">eMail Address</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_inb">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_accountt">Create Account</string>
+</resources>
